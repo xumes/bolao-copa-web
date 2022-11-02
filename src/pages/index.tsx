@@ -5,7 +5,7 @@ interface HomeProps {
 export default function Home(props: HomeProps) {
   return (
     <>
-      <h1>Pools</h1>
+      <h1 className="text-cyan-500 text-4xl">Pools</h1>
       <p>Count: {props.count.toFixed(0)}</p>
     </>
   )
